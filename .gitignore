@@ -21,3 +21,11 @@ wp-content/uploads/quickfix-kit/logs/*.log
 # If you ever add composer/node tooling later
 vendor/
 node_modules/
+
+# Ignore WP-generated content created by the container
+wp-content/plugins/
+wp-content/themes/
+wp-content/index.php
+
+# Ignore accidental MU-plugin shim at root (we keep the folder-based MU-plugin)
+wp-content/mu-plugins/quickfix-kit.php
