@@ -1,0 +1,23 @@
+# Env
+.env
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Logs (keep structure via .gitkeep)
+wp-content/uploads/**
+!wp-content/uploads/quickfix-kit/
+!wp-content/uploads/quickfix-kit/logs/
+!wp-content/uploads/quickfix-kit/logs/.gitkeep
+
+# extra safety: never commit generated logs/reports
+wp-content/uploads/quickfix-kit/logs/*.txt
+wp-content/uploads/quickfix-kit/logs/*.log
+# If you ever add composer/node tooling later
+vendor/
+node_modules/
