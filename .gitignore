@@ -27,5 +27,4 @@ wp-content/plugins/
 wp-content/themes/
 wp-content/index.php
 
-# Ignore accidental MU-plugin shim at root (we keep the folder-based MU-plugin)
-wp-content/mu-plugins/quickfix-kit.php
+
